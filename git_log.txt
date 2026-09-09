@@ -1,0 +1,2 @@
+e12abf4 Validate DevNet resource decisions
+4e806be Initialize DevNet resource validation plan
