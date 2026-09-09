@@ -3,7 +3,7 @@
 ## Student and Project
 
 - Name: Kris Derick C. Odda
-- Section: TN24
+- Section: TN32
 - Repository name: `it0123-devnet-resource-plan`
 
 ## Purpose
@@ -42,6 +42,48 @@ The AI recommendations were accepted because each recommendation matched the dec
 ```
 
 Replace the two placeholder log lines above with the actual hashes/output after running Git locally.
+
+## AI Prompt Records
+
+Scenario 1 — Always-On Sandbox
+
+I am selecting a Cisco DevNet resource for a fictional classroom use case.
+Use case: [Scenario 1 from devnet_use_cases.json]
+Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
+Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
+
+AI recommendation: always-on-sandbox
+
+Scenario 2 — Reservation Sandbox
+
+I am selecting a Cisco DevNet resource for a fictional classroom use case.
+Use case: [Scenario 2 from devnet_use_cases.json]
+Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
+Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
+
+AI recommendation: reservation-sandbox
+
+Scenario 3 — Learning Lab
+
+I am selecting a Cisco DevNet resource for a fictional classroom use case.
+Use case: [Scenario 3 from devnet_use_cases.json]
+Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
+Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
+
+AI recommendation: learning-lab
+
+Scenario 4 — Code Exchange
+
+I am selecting a Cisco DevNet resource for a fictional classroom use case.
+Use case: [Scenario 4 from devnet_use_cases.json]
+Choose exactly one: learning-lab, always-on-sandbox, reservation-sandbox, or code-exchange.
+Explain which requirement drove your choice. State any access, isolation, setup, or privilege claim that I should verify in official Cisco documentation.
+
+AI recommendation: code-exchange
+
+The assignment's own suggested prompt has essentially this structure.
+
+Important: I would use the actual four scenario descriptions from your devnet_use_cases.json rather than leaving [Scenario 1], etc. If you want, I can update your ZIP so it contains the complete prompt records + reflections + README, ready to submit.
 
 ## AI-Use Disclosure
 
